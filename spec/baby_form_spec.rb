@@ -42,7 +42,7 @@ feature 'baby form' do
         first_name: 'Cupcake',
         last_name: 'Jenkins',
         weight: 12,
-        birth_date: Time.new(2014, 2, 14)
+				birth_date: Time.new(2014, 2, 14) # Minus 5 hours 
       })
 
       visit edit_baby_path(baby)
